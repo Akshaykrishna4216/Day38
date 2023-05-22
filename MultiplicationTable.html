@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Excercise1</title>
+</head>
+<body>
+<script>
+const number = parseInt(prompt("Enter a number:"));
+
+let tb= "<table>";
+tb += "<tr><th>Number</th><th>Product</th></tr>";
+
+for (let i = 1; i <= 10; i++) {
+
+ let product = number * i;
+
+ tb+= "<tr>";
+
+ tb+= "<td>" + number + " * " + i + "</td>";
+
+ tb+= "<td>" + product + "</td>";
+
+ tb+= "</tr>";
+
+}
+
+tb+= "</table>";
+
+document.write(tb);
+
+</script>
+</body>
+</html>
