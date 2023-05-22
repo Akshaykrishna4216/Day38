@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Date and Time</title>
+</head>
+<body>
+<script>
+let dt=new Date();
+let day=dt.getDay();
+var daylist=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+document.write("Today is:"+daylist[day]);
+let hour=dt.getHours();
+let minute=dt.getMinutes();
+let second=dt.getSeconds();
+document.write("<br>");
+document.write("Current time :" +hour+":"+minute+":"+second);
+</script>
+</body>
+
+</html>
